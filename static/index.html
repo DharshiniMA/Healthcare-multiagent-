@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthAgent | Smart Care</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <h1>HealthAgent</h1>
+            </div>
+            <p>Your Personal AI Healthcare Assistant</p>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box">
+                    <div class="message ai-message">
+                        <div class="avatar">AI</div>
+                        <div class="text">Hello! I am your HealthAgent. How can I assist you today? I can help you find doctors, book appointments, or check your medical records.</div>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Type your request here..." autocomplete="off">
+                    <button id="send-btn" aria-label="Send Message">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="static/app.js"></script>
+</body>
+</html>
